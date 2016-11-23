@@ -21,8 +21,8 @@ class AxesDrawer
     }
     
     convenience init(color: UIColor) {
-        self.init()
-        self.color = color
+        self.init();
+        self.color = color;
     }
     
     convenience init(contentScaleFactor: CGFloat) {
